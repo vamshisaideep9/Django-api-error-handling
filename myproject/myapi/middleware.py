@@ -1,6 +1,7 @@
 import json
 import logging
 from django.http import JsonResponse
+from .custom_exceptions import CustomApiException
 
 logger = logging.getLogger('myapi')
 
@@ -9,11 +10,15 @@ class ExceptionMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        try:
-            response = self.get_response(request)
-            return response
-        except Exception as e:
-            logger.exception('Unhandled Exception %s', str(e))
-            return JsonResponse({'error','Internal server error'}, status=500)
+       response = self.get_response(request)
+       return response
+    
+    def process_exception(self, request, exception):
+        if isinstance(exception, CustomApiException):
+            response_data = exception.to_dict()
+            return JsonResponse(response_data, status = exception.status_code)
+        return None
+    
+
 
         

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
+from .custom_exceptions import ItemNotFound, InvalidInput, UnauthorizedAccess, CustomApiException
 from django.views import View
 from .models import Item
 from .utils import error_message
@@ -117,13 +118,13 @@ class ItemListView(View):
             return JsonResponse(data, status=201)
         except KeyError as e:
             logger.warning("Missing Field: %s", e.args[0])
-            return error_message(f'Missing Field: {e.args[0]}', status=400)
+            raise InvalidInput()
         except json.JSONDecodeError:
             logger.warning('Invalid Json in request body')
             return error_message('Invalid Json', status=400)
         except Exception as e:
             logger.error('Error creating item: %s', str(e))
-            return error_message('Internal Server Error', status=500)
+            raise CustomApiException()
 
 @method_decorator(csrf_exempt, name='dispatch')
 class ItemDetailView(View):
@@ -141,10 +142,10 @@ class ItemDetailView(View):
             return JsonResponse(data)
         except Item.DoesNotExist:
             logger.warning("Item with slug %s not found", slug)
-            return error_message('Item not found', 404)
+            raise ItemNotFound()
         except Exception as e:
             logger.error('Error Fetching item: %s', str(e))
-            return error_message('Internal Server Error', 500)
+            raise CustomApiException()
         
     def delete(self, request, slug):
         logger.info('Deleting item with slug %s', slug)
@@ -154,10 +155,10 @@ class ItemDetailView(View):
             return JsonResponse({'message':'Item deleted'}, status = 204)
         except Item.DoesNotExist:
             logger.warning('logger with slug %s not found', slug)
-            return error_message('Item not found', 404)
+            raise ItemNotFound()
         except Exception as e:
             logger.error('Error deleting item: %s', str(e))
-            return error_message('Internal server error', 500)
+            raise CustomApiException()
 
     
 

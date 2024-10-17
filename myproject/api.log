@@ -99,3 +99,117 @@ INFO 2024-10-17 00:10:19,609 views 14100 1012 Fetching item with slug vamshi-1
 WARNING 2024-10-17 00:10:19,611 views 14100 1012 Item with slug vamshi-1 not found
 WARNING 2024-10-17 00:10:19,612 log 14100 1012 Not Found: /api/items/vamshi-1/
 INFO 2024-10-17 00:10:24,614 views 14100 1012 Fetching item with slug vamshi
+INFO 2024-10-17 08:04:30,099 autoreload 6740 16280 Watching for file changes with StatReloader
+WARNING 2024-10-17 08:04:31,888 log 6740 14760 Not Found: /
+WARNING 2024-10-17 08:04:31,954 log 6740 14760 Not Found: /favicon.ico
+WARNING 2024-10-17 08:04:35,999 log 6740 14760 Not Found: /api/
+INFO 2024-10-17 08:04:39,380 views 6740 14760 Fetching all items
+INFO 2024-10-17 08:09:24,244 views 6740 19856 Deleting item with slug vamshi-178
+WARNING 2024-10-17 08:09:24,259 views 6740 19856 logger with slug vamshi-178 not found
+WARNING 2024-10-17 08:09:24,260 log 6740 19856 Not Found: /api/items/vamshi-178/
+INFO 2024-10-17 08:09:33,571 views 6740 19856 Deleting item with slug vamshi-1
+WARNING 2024-10-17 08:09:33,572 views 6740 19856 logger with slug vamshi-1 not found
+WARNING 2024-10-17 08:09:33,573 log 6740 19856 Not Found: /api/items/vamshi-1/
+INFO 2024-10-17 08:09:37,048 views 6740 3820 Fetching item with slug vamshi-1
+WARNING 2024-10-17 08:09:37,051 views 6740 3820 Item with slug vamshi-1 not found
+WARNING 2024-10-17 08:09:37,052 log 6740 3820 Not Found: /api/items/vamshi-1/
+INFO 2024-10-17 08:09:40,597 views 6740 3820 Fetching item with slug vamshi-1
+WARNING 2024-10-17 08:09:40,599 views 6740 3820 Item with slug vamshi-1 not found
+WARNING 2024-10-17 08:09:40,600 log 6740 3820 Not Found: /api/items/vamshi-1/
+INFO 2024-10-17 08:09:45,039 views 6740 3820 Fetching item with slug vamshi
+INFO 2024-10-17 08:23:10,608 autoreload 6740 16280 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:23:11,397 autoreload 5684 9456 Watching for file changes with StatReloader
+INFO 2024-10-17 08:23:13,943 autoreload 5684 9456 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:23:14,446 autoreload 5176 6536 Watching for file changes with StatReloader
+INFO 2024-10-17 08:23:40,766 autoreload 5176 6536 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:23:41,330 autoreload 9724 19224 Watching for file changes with StatReloader
+INFO 2024-10-17 08:24:14,966 autoreload 9724 19224 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:24:15,489 autoreload 2308 8148 Watching for file changes with StatReloader
+INFO 2024-10-17 08:25:01,084 autoreload 2308 8148 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:25:01,590 autoreload 18064 1368 Watching for file changes with StatReloader
+INFO 2024-10-17 08:25:07,231 autoreload 18064 1368 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 08:25:07,750 autoreload 15348 6708 Watching for file changes with StatReloader
+INFO 2024-10-17 09:01:24,398 autoreload 15348 6708 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:01:24,979 autoreload 10900 18064 Watching for file changes with StatReloader
+INFO 2024-10-17 09:01:40,964 autoreload 10900 18064 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:01:41,499 autoreload 4400 19716 Watching for file changes with StatReloader
+INFO 2024-10-17 09:02:12,963 autoreload 4400 19716 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:02:13,588 autoreload 4692 6012 Watching for file changes with StatReloader
+INFO 2024-10-17 09:02:45,061 autoreload 4692 6012 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:02:45,568 autoreload 5660 5000 Watching for file changes with StatReloader
+INFO 2024-10-17 09:04:06,643 autoreload 5660 5000 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:04:07,151 autoreload 5916 10660 Watching for file changes with StatReloader
+INFO 2024-10-17 09:04:22,139 autoreload 5916 10660 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:04:22,643 autoreload 2124 18052 Watching for file changes with StatReloader
+INFO 2024-10-17 09:04:39,631 autoreload 2124 18052 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:04:40,198 autoreload 20468 21104 Watching for file changes with StatReloader
+INFO 2024-10-17 09:04:45,788 autoreload 20468 21104 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:04:46,305 autoreload 1748 2292 Watching for file changes with StatReloader
+INFO 2024-10-17 09:04:56,023 autoreload 1748 2292 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:04:56,525 autoreload 100 5504 Watching for file changes with StatReloader
+INFO 2024-10-17 09:05:02,140 autoreload 100 5504 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:05:02,679 autoreload 7108 14356 Watching for file changes with StatReloader
+ERROR 2024-10-17 09:05:31,360 log 7108 14596 Internal Server Error: /api/items/vamshi/
+Traceback (most recent call last):
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py", line 13, in __call__
+    response = self.get_response(response)
+                                 ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+ERROR 2024-10-17 09:05:34,109 log 7108 14596 Internal Server Error: /api/items/vamshi/
+Traceback (most recent call last):
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py", line 13, in __call__
+    response = self.get_response(response)
+                                 ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+INFO 2024-10-17 09:06:22,998 autoreload 7108 14356 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\middleware.py changed, reloading.
+INFO 2024-10-17 09:06:23,582 autoreload 4760 5056 Watching for file changes with StatReloader
+INFO 2024-10-17 09:06:27,223 views 4760 14904 Fetching item with slug vamshi
+INFO 2024-10-17 09:06:36,642 views 4760 14904 Fetching item with slug vamshi-1
+WARNING 2024-10-17 09:06:36,644 views 4760 14904 Item with slug vamshi-1 not found
+ERROR 2024-10-17 09:06:36,676 log 4760 14904 Internal Server Error: /api/items/vamshi-1/
+Traceback (most recent call last):
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'ItemNotFound' object has no attribute 'get'
+INFO 2024-10-17 09:07:30,612 autoreload 4760 5056 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:07:31,149 autoreload 19664 2828 Watching for file changes with StatReloader
+INFO 2024-10-17 09:07:36,752 autoreload 19664 2828 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:07:37,444 autoreload 21140 6088 Watching for file changes with StatReloader
+INFO 2024-10-17 09:07:38,108 views 21140 6808 Fetching item with slug vamshi-1
+WARNING 2024-10-17 09:07:38,111 views 21140 6808 Item with slug vamshi-1 not found
+ERROR 2024-10-17 09:07:38,169 log 21140 6808 Internal Server Error: /api/items/vamshi-1/
+Traceback (most recent call last):
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'ItemNotFound' object has no attribute 'get'
+INFO 2024-10-17 09:08:02,724 autoreload 21140 6088 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:08:03,224 autoreload 16232 5204 Watching for file changes with StatReloader
+INFO 2024-10-17 09:08:05,024 views 16232 2912 Fetching item with slug vamshi-1
+WARNING 2024-10-17 09:08:05,027 views 16232 2912 Item with slug vamshi-1 not found
+WARNING 2024-10-17 09:08:05,028 log 16232 2912 Not Found: /api/items/vamshi-1/
+INFO 2024-10-17 09:08:15,796 views 16232 2912 Fetching item with slug vamshi
+INFO 2024-10-17 09:08:30,864 autoreload 16232 5204 C:\Users\vamsh\OneDrive\Desktop\django-api-error-handling\Django-api-error-handling\myproject\myapi\views.py changed, reloading.
+INFO 2024-10-17 09:08:31,367 autoreload 13960 8380 Watching for file changes with StatReloader
+INFO 2024-10-17 09:19:00,478 views 13960 20508 Deleting item with slug vamshi-1
+WARNING 2024-10-17 09:19:00,482 views 13960 20508 logger with slug vamshi-1 not found
+WARNING 2024-10-17 09:19:00,483 log 13960 20508 Not Found: /api/items/vamshi-1/
